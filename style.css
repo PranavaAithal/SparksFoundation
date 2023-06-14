@@ -1,0 +1,102 @@
+body {
+  background-image: url("images/bg3.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0.7, 0.5, 0.1, 0.1);
+  pointer-events: none;
+  background-blend-mode: darken;
+  z-index: -1;
+  position: relative;
+}
+
+header {
+  background-color: #242424;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  text-align:center;
+  font-size: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.a {
+  margin-left: -90px;
+}
+.c {
+  margin-left: 80px;
+}
+.btn {
+  background-color: green;
+  color: red;
+  margin-left: 630px;
+}
+form {
+  align-self: center;
+}
+
+  form{
+    margin-top: 4rem;
+  }
+
+
+@media (max-width: 780px)and(min-width:451px){
+  body {
+    background-size:178rem;
+  }
+ 
+form{
+  margin-top: 10rem;
+}
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.header-text {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+h5 {
+  text-align: center;
+}
